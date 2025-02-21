@@ -6,7 +6,6 @@
   <Row>
     <Column>
       <h1>Speech-to-Text (STT)</h1>
-      <Button></Button>
     </Column>
   </Row>
 </Grid>
