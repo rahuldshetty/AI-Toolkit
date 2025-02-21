@@ -2,7 +2,7 @@
     import { Content } from "carbon-components-svelte";
     import "carbon-components-svelte/css/all.css";
     
-    import Navbar from "$lib/components/navbar.svelte";
+    import Navbar from "$lib/components/navbar/NavBar.svelte";
     import InfoModal from "$lib/components/modals/infoModal.svelte";
 
     // Update UX theme
