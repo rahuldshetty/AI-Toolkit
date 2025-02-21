@@ -1,6 +1,7 @@
 import {
     Home,
     VoiceActivate,
+    StringText,
 } from "carbon-icons-svelte";
 
 export const SideNavItemsData = [
@@ -9,6 +10,18 @@ export const SideNavItemsData = [
         "type": "item",
         "icon": Home,
         "link": "/"
+    },
+    { 
+        "name": "Text",
+        "type": "group",
+        "icon": StringText,
+        "children": [
+            {
+                "name": "Text Generation",
+                "type": "item",
+                "link": "/models/text/generation"
+            },
+        ]
     },
     { 
         "name": "Audio",
@@ -26,5 +39,5 @@ export const SideNavItemsData = [
                 "link": "/models/audio/tts"
             },
         ]
-    }
+    },
 ]
